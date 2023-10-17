@@ -1,8 +1,10 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react'
 import styles from "./authLinks.module.css"
 import Link from 'next/link';
 
  const AuthLinks = () =>{
+    const [open,setOpen] = useState(false)
     //temporary
     const status="notauthenticated"
     return (
