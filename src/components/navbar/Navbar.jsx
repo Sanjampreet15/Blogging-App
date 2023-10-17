@@ -17,9 +17,9 @@ import Link from 'next/link'
         <div className={styles.logo}>RajdeepBlog</div>
         <div className={styles.links}>
         <Themetoggle/>
-        <Link href="/">Homepage</Link>
-        <Link href="/">Contact</Link>
-        <Link href="/">About</Link>
+        <Link href="/" className={styles.link}>Homepage</Link>
+        <Link href="/" className={styles.link}>Contact</Link>
+        <Link href="/" className={styles.link}>About</Link>
         <AuthLinks/>
         </div>
         </div>
