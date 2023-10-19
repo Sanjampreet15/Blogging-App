@@ -9,6 +9,9 @@
     font-weight: 400;
 }
 
+.heading{
+    margin-bottom: 13px;
+}
 .subHeading{
     color:gray;
     margin-top:25px ;
