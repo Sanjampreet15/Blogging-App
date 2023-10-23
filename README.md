@@ -11,6 +11,8 @@
    npm install next-auth ( for authentication) ->
    npm install @prisma/client @auth/prisma-adapter ->
    npm install prisma --save-dev ->
+   npm install react-quill
+
 
    npx prisma init --datasource-provider mongodb ->
    npx prisma generate ->
