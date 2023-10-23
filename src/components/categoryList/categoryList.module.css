@@ -2,7 +2,7 @@
 }
 
 .title {
-  margin: 50px 50px;
+  margin: 50px 0px;
 }
 
 .categories {
@@ -47,6 +47,10 @@
   background-color: #5e4fff31;
 }
 
+.image {
+  border-radius: 50%;
+}
+
 @media screen and (max-width: 1280px) {
   .category {
     width: 20%;
@@ -66,8 +70,4 @@
   .category {
     width: 100%;
   }
-}
-
-.image {
-  border-radius: 50%;
 }
