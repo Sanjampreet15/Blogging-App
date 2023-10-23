@@ -1,8 +1,8 @@
+import Navbar from "@/components/navbar/Navbar";
 import "./globals.css";
 import { Inter } from "next/font/google";
-import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
-import { ThemeContexProvider } from "@/context/ThemeContext";
+import { ThemeContextProvider } from "@/context/ThemeContext";
 import ThemeProvider from "@/providers/ThemeProvider";
 import AuthProvider from "@/providers/AuthProvider";
 
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <AuthProvider>
-          <ThemeContexProvider>
+          <ThemeContextProvider>
             <ThemeProvider>
               <div className="container">
                 <div className="wrapper">
@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
                 </div>
               </div>
             </ThemeProvider>
-          </ThemeContexProvider>
+          </ThemeContextProvider>
         </AuthProvider>
       </body>
     </html>
